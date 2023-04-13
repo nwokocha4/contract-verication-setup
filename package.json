@@ -1,0 +1,19 @@
+{
+  "name": "contract-verification-setup",
+  "version": "1.0.0",
+  "description": "Basic setup for contract-verification tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nwokocha Emeka (Hopewell)",
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.13.1"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "dotenv": "^16.0.3"
+  }
+}
